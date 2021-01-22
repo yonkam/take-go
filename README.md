@@ -1,4 +1,4 @@
-# Express-ejs-template
+# take&go
 
 Steps to reproduce:
 
