@@ -1,4 +1,4 @@
-# take&go
+# take_go
 
 Steps to reproduce:
 
