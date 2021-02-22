@@ -18,7 +18,7 @@ class Contact {
     this.rue = p_rue;
     this.codePostal = p_codePostal;
     this.ville = p_ville;
-    this.numeroTelephone = p_codePostal;
+    this.numeroTelephone = p_numeroTelephone;
     this.eMail = p_eMail;
   }
 
@@ -49,3 +49,4 @@ class Contact {
 
 
 }
+
