@@ -13,15 +13,15 @@ class RestaurantModel {
     this.restaurantList.push(restaurant_1);
 
     contact2 = new Contact("acacia", "15", "1119", "YAOUNDE", "CMR", "87U", "valyahoo");
-    restaurant_2 = new Restaurant("Chez lulu", "rizoto", contact, 2);
-    this.restaurantList.push(restaurant_2);
+    restaurant2 = new Restaurant("Chez lulu", "rizoto", contact, 2);
+    this.restaurantList.push(restaurant2);
 
 
     return this.restaurantList;
   }
 
 
-  search(p_index) {
-    return this.restaurantList[p_index];
+  search(index) {
+    return this.restaurantList[index];
   }
 }

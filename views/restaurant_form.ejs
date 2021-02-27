@@ -1,0 +1,28 @@
+<%- include('header'); -%>
+
+<main class="container">
+  <h1><%= title %></h1>
+  <form action="/restaurants" method="post">
+    <div class="mb-3">
+      <label for="nomInput" class="form-label">Noms</label>
+      <input type="text" name="nom" list="nomOptions" required autofocus class="form-control" id="nomInput">
+      <datalist id="nomOptions">
+      </datalist>
+    </div>
+    <div class="mb-3">
+      <label for="menuInput" class="form-label">Menu</label>
+      <input type="text" name="menu" list="menuOptions" required class="form-control" id="menuInput">
+      <datalist id="menuOptions">
+      </datalist>
+    </div>
+    <div class="mb-3">
+      <label for="idInput" class="form-label">Identifiant</label>
+      <input type="text" name="id" required class="form-control" id="idInput">
+    </div>
+    <div class="mb-3">
+  </form>
+</main>
+
+<script src="/js/restaurant-form.js" defer></script>
+
+<%- include('footer') -%>
