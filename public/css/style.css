@@ -1,0 +1,8 @@
+image{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  margin: auto;
+}
+.banner{position: absolute; width: 50%; margin: 50%}
+.heading{color: rgb(111, 0, 255); position: 20%; top: 50%; width: 100%; text-align: center;}

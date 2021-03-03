@@ -6,8 +6,8 @@ router.get('/', (req, res, next) => {
   res.render('index', { title: 'take_go' });
 });
 
-router.get('/restaurant', (req, res, next) => {
-  res.render( 'restaurant', { title: 'liste des restarants mabah', restaurantList:'blabla' });
+router.get('/', (req, res, next) => {
+  res.render( 'restaurant', { title: 'liste des restarants mabah', restaurantList:'blablajkhbjo,ok4444444' });
 
 });
 
